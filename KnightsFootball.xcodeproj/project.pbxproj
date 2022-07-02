@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711E0788286EBAAE00C030D9 /* Schedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E0787286EBAAD00C030D9 /* Schedules.swift */; };
+		711E078A286EBC4200C030D9 /* SchedulesXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E0789286EBC4200C030D9 /* SchedulesXMLParser.swift */; };
+		71661257286D617200D1E1A0 /* Headlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71661256286D617100D1E1A0 /* Headlines.swift */; };
+		7166125B286D6A5900D1E1A0 /* HeadlinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166125A286D6A5800D1E1A0 /* HeadlinesView.swift */; };
+		7166125D286D6AAF00D1E1A0 /* HeadlineListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166125C286D6AAF00D1E1A0 /* HeadlineListItem.swift */; };
+		71661260286D719200D1E1A0 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7166125F286D719200D1E1A0 /* URLImage */; };
+		7178F258286FA62D00D19AB5 /* SchedulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F257286FA62D00D19AB5 /* SchedulesView.swift */; };
+		7178F25A286FAE3200D19AB5 /* SchedulesViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F259286FAE3200D19AB5 /* SchedulesViewModels.swift */; };
+		7178F25C286FAF1E00D19AB5 /* ScheduleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F25B286FAF1E00D19AB5 /* ScheduleListItem.swift */; };
+		7178F25E286FB26000D19AB5 /* Rosters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F25D286FB26000D19AB5 /* Rosters.swift */; };
+		7178F261286FB37800D19AB5 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 7178F260286FB37800D19AB5 /* SwiftSoup */; };
+		7178F263286FB50000D19AB5 /* RostersDOMParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F262286FB50000D19AB5 /* RostersDOMParser.swift */; };
+		7178F265286FBFB500D19AB5 /* RostersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F264286FBFB500D19AB5 /* RostersView.swift */; };
+		7178F269286FC86100D19AB5 /* RostersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F268286FC86000D19AB5 /* RostersViewModel.swift */; };
+		71FF64662864C3D700C89139 /* KnightsFootballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF64652864C3D700C89139 /* KnightsFootballApp.swift */; };
+		71FF64682864C3D700C89139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF64672864C3D700C89139 /* ContentView.swift */; };
+		71FF646A2864C3D900C89139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FF64692864C3D900C89139 /* Assets.xcassets */; };
+		71FF646D2864C3D900C89139 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FF646C2864C3D900C89139 /* Preview Assets.xcassets */; };
+		71FF64772864C3D900C89139 /* KnightsFootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF64762864C3D900C89139 /* KnightsFootballTests.swift */; };
+		71FF64812864C3D900C89139 /* KnightsFootballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF64802864C3D900C89139 /* KnightsFootballUITests.swift */; };
+		71FF64832864C3D900C89139 /* KnightsFootballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF64822864C3D900C89139 /* KnightsFootballUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71FF64732864C3D900C89139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FF645A2864C3D700C89139 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71FF64612864C3D700C89139;
+			remoteInfo = KnightsFootball;
+		};
+		71FF647D2864C3D900C89139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FF645A2864C3D700C89139 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71FF64612864C3D700C89139;
+			remoteInfo = KnightsFootball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		711E0787286EBAAD00C030D9 /* Schedules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedules.swift; sourceTree = "<group>"; };
+		711E0789286EBC4200C030D9 /* SchedulesXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesXMLParser.swift; sourceTree = "<group>"; };
+		71661256286D617100D1E1A0 /* Headlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headlines.swift; sourceTree = "<group>"; };
+		7166125A286D6A5800D1E1A0 /* HeadlinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesView.swift; sourceTree = "<group>"; };
+		7166125C286D6AAF00D1E1A0 /* HeadlineListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineListItem.swift; sourceTree = "<group>"; };
+		7178F257286FA62D00D19AB5 /* SchedulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesView.swift; sourceTree = "<group>"; };
+		7178F259286FAE3200D19AB5 /* SchedulesViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesViewModels.swift; sourceTree = "<group>"; };
+		7178F25B286FAF1E00D19AB5 /* ScheduleListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListItem.swift; sourceTree = "<group>"; };
+		7178F25D286FB26000D19AB5 /* Rosters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rosters.swift; sourceTree = "<group>"; };
+		7178F262286FB50000D19AB5 /* RostersDOMParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RostersDOMParser.swift; sourceTree = "<group>"; };
+		7178F264286FBFB500D19AB5 /* RostersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RostersView.swift; sourceTree = "<group>"; };
+		7178F268286FC86000D19AB5 /* RostersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RostersViewModel.swift; sourceTree = "<group>"; };
+		71FF64622864C3D700C89139 /* KnightsFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnightsFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FF64652864C3D700C89139 /* KnightsFootballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightsFootballApp.swift; sourceTree = "<group>"; };
+		71FF64672864C3D700C89139 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71FF64692864C3D900C89139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71FF646C2864C3D900C89139 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71FF64722864C3D900C89139 /* KnightsFootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnightsFootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FF64762864C3D900C89139 /* KnightsFootballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightsFootballTests.swift; sourceTree = "<group>"; };
+		71FF647C2864C3D900C89139 /* KnightsFootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnightsFootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FF64802864C3D900C89139 /* KnightsFootballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightsFootballUITests.swift; sourceTree = "<group>"; };
+		71FF64822864C3D900C89139 /* KnightsFootballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightsFootballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71FF645F2864C3D700C89139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71661260286D719200D1E1A0 /* URLImage in Frameworks */,
+				7178F261286FB37800D19AB5 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FF646F2864C3D900C89139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FF64792864C3D900C89139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7106190B287006500012F10A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71661256286D617100D1E1A0 /* Headlines.swift */,
+				711E0787286EBAAD00C030D9 /* Schedules.swift */,
+				7178F25D286FB26000D19AB5 /* Rosters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7106190C2870065A0012F10A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71FF64672864C3D700C89139 /* ContentView.swift */,
+				7106190D2870069D0012F10A /* Headlines */,
+				7106190E287006AE0012F10A /* Rosters */,
+				7106190F287006B50012F10A /* Schedules */,
+				71061910287006E20012F10A /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7106190D2870069D0012F10A /* Headlines */ = {
+			isa = PBXGroup;
+			children = (
+				7166125A286D6A5800D1E1A0 /* HeadlinesView.swift */,
+				7166125C286D6AAF00D1E1A0 /* HeadlineListItem.swift */,
+			);
+			path = Headlines;
+			sourceTree = "<group>";
+		};
+		7106190E287006AE0012F10A /* Rosters */ = {
+			isa = PBXGroup;
+			children = (
+				7178F268286FC86000D19AB5 /* RostersViewModel.swift */,
+				7178F264286FBFB500D19AB5 /* RostersView.swift */,
+			);
+			path = Rosters;
+			sourceTree = "<group>";
+		};
+		7106190F287006B50012F10A /* Schedules */ = {
+			isa = PBXGroup;
+			children = (
+				7178F25B286FAF1E00D19AB5 /* ScheduleListItem.swift */,
+				7178F259286FAE3200D19AB5 /* SchedulesViewModels.swift */,
+				7178F257286FA62D00D19AB5 /* SchedulesView.swift */,
+			);
+			path = Schedules;
+			sourceTree = "<group>";
+		};
+		71061910287006E20012F10A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				711E0789286EBC4200C030D9 /* SchedulesXMLParser.swift */,
+				7178F262286FB50000D19AB5 /* RostersDOMParser.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		71FF64592864C3D700C89139 = {
+			isa = PBXGroup;
+			children = (
+				71FF64642864C3D700C89139 /* KnightsFootball */,
+				71FF64752864C3D900C89139 /* KnightsFootballTests */,
+				71FF647F2864C3D900C89139 /* KnightsFootballUITests */,
+				71FF64632864C3D700C89139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71FF64632864C3D700C89139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71FF64622864C3D700C89139 /* KnightsFootball.app */,
+				71FF64722864C3D900C89139 /* KnightsFootballTests.xctest */,
+				71FF647C2864C3D900C89139 /* KnightsFootballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71FF64642864C3D700C89139 /* KnightsFootball */ = {
+			isa = PBXGroup;
+			children = (
+				71FF64652864C3D700C89139 /* KnightsFootballApp.swift */,
+				7106190C2870065A0012F10A /* Views */,
+				7106190B287006500012F10A /* Models */,
+				71FF64692864C3D900C89139 /* Assets.xcassets */,
+				71FF646B2864C3D900C89139 /* Preview Content */,
+			);
+			path = KnightsFootball;
+			sourceTree = "<group>";
+		};
+		71FF646B2864C3D900C89139 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71FF646C2864C3D900C89139 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71FF64752864C3D900C89139 /* KnightsFootballTests */ = {
+			isa = PBXGroup;
+			children = (
+				71FF64762864C3D900C89139 /* KnightsFootballTests.swift */,
+			);
+			path = KnightsFootballTests;
+			sourceTree = "<group>";
+		};
+		71FF647F2864C3D900C89139 /* KnightsFootballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71FF64802864C3D900C89139 /* KnightsFootballUITests.swift */,
+				71FF64822864C3D900C89139 /* KnightsFootballUITestsLaunchTests.swift */,
+			);
+			path = KnightsFootballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71FF64612864C3D700C89139 /* KnightsFootball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71FF64862864C3D900C89139 /* Build configuration list for PBXNativeTarget "KnightsFootball" */;
+			buildPhases = (
+				71FF645E2864C3D700C89139 /* Sources */,
+				71FF645F2864C3D700C89139 /* Frameworks */,
+				71FF64602864C3D700C89139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnightsFootball;
+			packageProductDependencies = (
+				7166125F286D719200D1E1A0 /* URLImage */,
+				7178F260286FB37800D19AB5 /* SwiftSoup */,
+			);
+			productName = KnightsFootball;
+			productReference = 71FF64622864C3D700C89139 /* KnightsFootball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71FF64712864C3D900C89139 /* KnightsFootballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71FF64892864C3D900C89139 /* Build configuration list for PBXNativeTarget "KnightsFootballTests" */;
+			buildPhases = (
+				71FF646E2864C3D900C89139 /* Sources */,
+				71FF646F2864C3D900C89139 /* Frameworks */,
+				71FF64702864C3D900C89139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71FF64742864C3D900C89139 /* PBXTargetDependency */,
+			);
+			name = KnightsFootballTests;
+			productName = KnightsFootballTests;
+			productReference = 71FF64722864C3D900C89139 /* KnightsFootballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71FF647B2864C3D900C89139 /* KnightsFootballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71FF648C2864C3D900C89139 /* Build configuration list for PBXNativeTarget "KnightsFootballUITests" */;
+			buildPhases = (
+				71FF64782864C3D900C89139 /* Sources */,
+				71FF64792864C3D900C89139 /* Frameworks */,
+				71FF647A2864C3D900C89139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71FF647E2864C3D900C89139 /* PBXTargetDependency */,
+			);
+			name = KnightsFootballUITests;
+			productName = KnightsFootballUITests;
+			productReference = 71FF647C2864C3D900C89139 /* KnightsFootballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71FF645A2864C3D700C89139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					71FF64612864C3D700C89139 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					71FF64712864C3D900C89139 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 71FF64612864C3D700C89139;
+					};
+					71FF647B2864C3D900C89139 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 71FF64612864C3D700C89139;
+					};
+				};
+			};
+			buildConfigurationList = 71FF645D2864C3D700C89139 /* Build configuration list for PBXProject "KnightsFootball" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71FF64592864C3D700C89139;
+			packageReferences = (
+				7166125E286D719200D1E1A0 /* XCRemoteSwiftPackageReference "url-image" */,
+				7178F25F286FB37800D19AB5 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 71FF64632864C3D700C89139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71FF64612864C3D700C89139 /* KnightsFootball */,
+				71FF64712864C3D900C89139 /* KnightsFootballTests */,
+				71FF647B2864C3D900C89139 /* KnightsFootballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71FF64602864C3D700C89139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FF646D2864C3D900C89139 /* Preview Assets.xcassets in Resources */,
+				71FF646A2864C3D900C89139 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FF64702864C3D900C89139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FF647A2864C3D900C89139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71FF645E2864C3D700C89139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711E0788286EBAAE00C030D9 /* Schedules.swift in Sources */,
+				7178F258286FA62D00D19AB5 /* SchedulesView.swift in Sources */,
+				71FF64682864C3D700C89139 /* ContentView.swift in Sources */,
+				7166125D286D6AAF00D1E1A0 /* HeadlineListItem.swift in Sources */,
+				7178F263286FB50000D19AB5 /* RostersDOMParser.swift in Sources */,
+				71FF64662864C3D700C89139 /* KnightsFootballApp.swift in Sources */,
+				7178F25E286FB26000D19AB5 /* Rosters.swift in Sources */,
+				7178F25A286FAE3200D19AB5 /* SchedulesViewModels.swift in Sources */,
+				71661257286D617200D1E1A0 /* Headlines.swift in Sources */,
+				7166125B286D6A5900D1E1A0 /* HeadlinesView.swift in Sources */,
+				711E078A286EBC4200C030D9 /* SchedulesXMLParser.swift in Sources */,
+				7178F269286FC86100D19AB5 /* RostersViewModel.swift in Sources */,
+				7178F265286FBFB500D19AB5 /* RostersView.swift in Sources */,
+				7178F25C286FAF1E00D19AB5 /* ScheduleListItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FF646E2864C3D900C89139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FF64772864C3D900C89139 /* KnightsFootballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FF64782864C3D900C89139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FF64832864C3D900C89139 /* KnightsFootballUITestsLaunchTests.swift in Sources */,
+				71FF64812864C3D900C89139 /* KnightsFootballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71FF64742864C3D900C89139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71FF64612864C3D700C89139 /* KnightsFootball */;
+			targetProxy = 71FF64732864C3D900C89139 /* PBXContainerItemProxy */;
+		};
+		71FF647E2864C3D900C89139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71FF64612864C3D700C89139 /* KnightsFootball */;
+			targetProxy = 71FF647D2864C3D900C89139 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71FF64842864C3D900C89139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71FF64852864C3D900C89139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71FF64872864C3D900C89139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KnightsFootball/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KK289KR4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathansteele.KnightsFootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71FF64882864C3D900C89139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KnightsFootball/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KK289KR4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathansteele.KnightsFootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71FF648A2864C3D900C89139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KK289KR4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathansteele.KnightsFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnightsFootball.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KnightsFootball";
+			};
+			name = Debug;
+		};
+		71FF648B2864C3D900C89139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KK289KR4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathansteele.KnightsFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnightsFootball.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KnightsFootball";
+			};
+			name = Release;
+		};
+		71FF648D2864C3D900C89139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KK289KR4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathansteele.KnightsFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KnightsFootball;
+			};
+			name = Debug;
+		};
+		71FF648E2864C3D900C89139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KK289KR4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathansteele.KnightsFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KnightsFootball;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71FF645D2864C3D700C89139 /* Build configuration list for PBXProject "KnightsFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FF64842864C3D900C89139 /* Debug */,
+				71FF64852864C3D900C89139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71FF64862864C3D900C89139 /* Build configuration list for PBXNativeTarget "KnightsFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FF64872864C3D900C89139 /* Debug */,
+				71FF64882864C3D900C89139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71FF64892864C3D900C89139 /* Build configuration list for PBXNativeTarget "KnightsFootballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FF648A2864C3D900C89139 /* Debug */,
+				71FF648B2864C3D900C89139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71FF648C2864C3D900C89139 /* Build configuration list for PBXNativeTarget "KnightsFootballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FF648D2864C3D900C89139 /* Debug */,
+				71FF648E2864C3D900C89139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7166125E286D719200D1E1A0 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		7178F25F286FB37800D19AB5 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7166125F286D719200D1E1A0 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7166125E286D719200D1E1A0 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		7178F260286FB37800D19AB5 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7178F25F286FB37800D19AB5 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 71FF645A2864C3D700C89139 /* Project object */;
+}
