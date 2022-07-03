@@ -50,6 +50,10 @@
 /* Begin PBXFileReference section */
 		711E0787286EBAAD00C030D9 /* Schedules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedules.swift; sourceTree = "<group>"; };
 		711E0789286EBC4200C030D9 /* SchedulesXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesXMLParser.swift; sourceTree = "<group>"; };
+		714BC9AD287131F30052155F /* screenshot-headlines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-headlines.png"; sourceTree = "<group>"; };
+		714BC9AE287131F30052155F /* screenshot-schedules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-schedules.png"; sourceTree = "<group>"; };
+		714BC9AF287131F30052155F /* screenshot-rosters-coaches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-rosters-coaches.png"; sourceTree = "<group>"; };
+		714BC9B0287131F30052155F /* screenshot-rosters-players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-rosters-players.png"; sourceTree = "<group>"; };
 		71661256286D617100D1E1A0 /* Headlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headlines.swift; sourceTree = "<group>"; };
 		7166125A286D6A5800D1E1A0 /* HeadlinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesView.swift; sourceTree = "<group>"; };
 		7166125C286D6AAF00D1E1A0 /* HeadlineListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineListItem.swift; sourceTree = "<group>"; };
@@ -158,6 +162,17 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		714BC9AC2871316E0052155F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				714BC9AD287131F30052155F /* screenshot-headlines.png */,
+				714BC9AF287131F30052155F /* screenshot-rosters-coaches.png */,
+				714BC9B0287131F30052155F /* screenshot-rosters-players.png */,
+				714BC9AE287131F30052155F /* screenshot-schedules.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		71FF64592864C3D700C89139 = {
 			isa = PBXGroup;
 			children = (
@@ -182,8 +197,9 @@
 			isa = PBXGroup;
 			children = (
 				71FF64652864C3D700C89139 /* KnightsFootballApp.swift */,
-				7106190C2870065A0012F10A /* Views */,
 				7106190B287006500012F10A /* Models */,
+				7106190C2870065A0012F10A /* Views */,
+				714BC9AC2871316E0052155F /* images */,
 				71FF64692864C3D900C89139 /* Assets.xcassets */,
 				71FF646B2864C3D900C89139 /* Preview Content */,
 			);
