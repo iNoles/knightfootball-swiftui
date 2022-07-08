@@ -13,6 +13,8 @@
 		7166125B286D6A5900D1E1A0 /* HeadlinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166125A286D6A5800D1E1A0 /* HeadlinesView.swift */; };
 		7166125D286D6AAF00D1E1A0 /* HeadlineListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166125C286D6AAF00D1E1A0 /* HeadlineListItem.swift */; };
 		71661260286D719200D1E1A0 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7166125F286D719200D1E1A0 /* URLImage */; };
+		716DC550287519B4002C9017 /* SidebarMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716DC54F287519B4002C9017 /* SidebarMainView.swift */; };
+		716DC55228751A53002C9017 /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716DC55128751A53002C9017 /* TabModel.swift */; };
 		7178F258286FA62D00D19AB5 /* SchedulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F257286FA62D00D19AB5 /* SchedulesView.swift */; };
 		7178F25A286FAE3200D19AB5 /* SchedulesViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F259286FAE3200D19AB5 /* SchedulesViewModels.swift */; };
 		7178F25C286FAF1E00D19AB5 /* ScheduleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F25B286FAF1E00D19AB5 /* ScheduleListItem.swift */; };
@@ -22,7 +24,7 @@
 		7178F265286FBFB500D19AB5 /* RostersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F264286FBFB500D19AB5 /* RostersView.swift */; };
 		7178F269286FC86100D19AB5 /* RostersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178F268286FC86000D19AB5 /* RostersViewModel.swift */; };
 		71FF64662864C3D700C89139 /* KnightsFootballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF64652864C3D700C89139 /* KnightsFootballApp.swift */; };
-		71FF64682864C3D700C89139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF64672864C3D700C89139 /* ContentView.swift */; };
+		71FF64682864C3D700C89139 /* TabMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF64672864C3D700C89139 /* TabMainView.swift */; };
 		71FF646A2864C3D900C89139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FF64692864C3D900C89139 /* Assets.xcassets */; };
 		71FF646D2864C3D900C89139 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FF646C2864C3D900C89139 /* Preview Assets.xcassets */; };
 		71FF64772864C3D900C89139 /* KnightsFootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF64762864C3D900C89139 /* KnightsFootballTests.swift */; };
@@ -50,13 +52,11 @@
 /* Begin PBXFileReference section */
 		711E0787286EBAAD00C030D9 /* Schedules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedules.swift; sourceTree = "<group>"; };
 		711E0789286EBC4200C030D9 /* SchedulesXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesXMLParser.swift; sourceTree = "<group>"; };
-		714BC9AD287131F30052155F /* screenshot-headlines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-headlines.png"; sourceTree = "<group>"; };
-		714BC9AE287131F30052155F /* screenshot-schedules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-schedules.png"; sourceTree = "<group>"; };
-		714BC9AF287131F30052155F /* screenshot-rosters-coaches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-rosters-coaches.png"; sourceTree = "<group>"; };
-		714BC9B0287131F30052155F /* screenshot-rosters-players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-rosters-players.png"; sourceTree = "<group>"; };
 		71661256286D617100D1E1A0 /* Headlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headlines.swift; sourceTree = "<group>"; };
 		7166125A286D6A5800D1E1A0 /* HeadlinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesView.swift; sourceTree = "<group>"; };
 		7166125C286D6AAF00D1E1A0 /* HeadlineListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineListItem.swift; sourceTree = "<group>"; };
+		716DC54F287519B4002C9017 /* SidebarMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMainView.swift; sourceTree = "<group>"; };
+		716DC55128751A53002C9017 /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
 		7178F257286FA62D00D19AB5 /* SchedulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesView.swift; sourceTree = "<group>"; };
 		7178F259286FAE3200D19AB5 /* SchedulesViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesViewModels.swift; sourceTree = "<group>"; };
 		7178F25B286FAF1E00D19AB5 /* ScheduleListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListItem.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		7178F268286FC86000D19AB5 /* RostersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RostersViewModel.swift; sourceTree = "<group>"; };
 		71FF64622864C3D700C89139 /* KnightsFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnightsFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FF64652864C3D700C89139 /* KnightsFootballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightsFootballApp.swift; sourceTree = "<group>"; };
-		71FF64672864C3D700C89139 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71FF64672864C3D700C89139 /* TabMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMainView.swift; sourceTree = "<group>"; };
 		71FF64692864C3D900C89139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71FF646C2864C3D900C89139 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71FF64722864C3D900C89139 /* KnightsFootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnightsFootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,7 +116,9 @@
 		7106190C2870065A0012F10A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				71FF64672864C3D700C89139 /* ContentView.swift */,
+				716DC54F287519B4002C9017 /* SidebarMainView.swift */,
+				71FF64672864C3D700C89139 /* TabMainView.swift */,
+				716DC55128751A53002C9017 /* TabModel.swift */,
 				7106190D2870069D0012F10A /* Headlines */,
 				7106190E287006AE0012F10A /* Rosters */,
 				7106190F287006B50012F10A /* Schedules */,
@@ -162,17 +164,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		714BC9AC2871316E0052155F /* images */ = {
-			isa = PBXGroup;
-			children = (
-				714BC9AD287131F30052155F /* screenshot-headlines.png */,
-				714BC9AF287131F30052155F /* screenshot-rosters-coaches.png */,
-				714BC9B0287131F30052155F /* screenshot-rosters-players.png */,
-				714BC9AE287131F30052155F /* screenshot-schedules.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
 		71FF64592864C3D700C89139 = {
 			isa = PBXGroup;
 			children = (
@@ -199,7 +190,6 @@
 				71FF64652864C3D700C89139 /* KnightsFootballApp.swift */,
 				7106190B287006500012F10A /* Models */,
 				7106190C2870065A0012F10A /* Views */,
-				714BC9AC2871316E0052155F /* images */,
 				71FF64692864C3D900C89139 /* Assets.xcassets */,
 				71FF646B2864C3D900C89139 /* Preview Content */,
 			);
@@ -370,8 +360,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				711E0788286EBAAE00C030D9 /* Schedules.swift in Sources */,
+				716DC55228751A53002C9017 /* TabModel.swift in Sources */,
 				7178F258286FA62D00D19AB5 /* SchedulesView.swift in Sources */,
-				71FF64682864C3D700C89139 /* ContentView.swift in Sources */,
+				71FF64682864C3D700C89139 /* TabMainView.swift in Sources */,
 				7166125D286D6AAF00D1E1A0 /* HeadlineListItem.swift in Sources */,
 				7178F263286FB50000D19AB5 /* RostersDOMParser.swift in Sources */,
 				71FF64662864C3D700C89139 /* KnightsFootballApp.swift in Sources */,
@@ -380,6 +371,7 @@
 				71661257286D617200D1E1A0 /* Headlines.swift in Sources */,
 				7166125B286D6A5900D1E1A0 /* HeadlinesView.swift in Sources */,
 				711E078A286EBC4200C030D9 /* SchedulesXMLParser.swift in Sources */,
+				716DC550287519B4002C9017 /* SidebarMainView.swift in Sources */,
 				7178F269286FC86100D19AB5 /* RostersViewModel.swift in Sources */,
 				7178F265286FBFB500D19AB5 /* RostersView.swift in Sources */,
 				7178F25C286FAF1E00D19AB5 /* ScheduleListItem.swift in Sources */,
@@ -556,6 +548,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathansteele.KnightsFootball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -585,6 +580,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathansteele.KnightsFootball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
